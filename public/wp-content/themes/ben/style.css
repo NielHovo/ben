@@ -1,0 +1,143 @@
+/*Global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Navbar*/
+.nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(33, 183, 60);
+    margin: 5px 10px 5px 10px;
+}
+/*Hero*/
+#hero{
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    width: 100%;
+    background-color: grey;
+}
+/*Sections*/
+h2{
+    grid-column: span 2;
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    width: 70%;
+    border-bottom: 2px solid black;
+}
+#philosophy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+}
+#philosophy img{
+    height: 300px;
+    width: 50vw;
+    background-color: grey;
+}
+.text{
+    margin: auto;
+    width: 75%;
+    
+}
+.text p, h3{
+    width: 100%;
+    text-align: center;
+}
+.text h3{
+    color: rgb(33, 183, 60);
+    font-size: 2rem;
+}
+#workshops{
+    font-size: 1.25rem;
+    background-color: rgb(33, 183, 60);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#workshops img{
+    height: 350px;
+    width: 60vw;
+    background-color: grey;
+}
+#workshops .column{
+    width: 20vw;
+    margin-left: 40px;
+    align-self: center;
+    color: white;
+}
+#workshops .column button{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: transparent;
+    border: white 3px solid;
+    cursor: pointer;
+    color: white;
+}
+
+#jobs{
+    font-size: 1.25rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+#jobs img{
+    height: 350px;
+    width: 40vw;
+    background-color: grey;
+}
+#jobs .column{
+    width: 30vw;
+    margin-left: 40px;
+    align-self: center;
+    color: rgb(33, 183, 60)
+}
+#jobs .column button{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: transparent;
+    border: rgb(33, 183, 60) 3px solid;
+    cursor: pointer;
+    color: rgb(33, 183, 60)
+}
+#box{
+    width: 20vw;
+    height: 350;
+    background-color: grey;
+}
+/*Footer*/
+footer{
+    background-color: rgb(33, 183, 60);
+    height: 200px;
+    align-content: center;
+}
+footer {
+    text-align: center;
+}
+footer h4, footer p{
+    margin: 5px;
+}
+footer div{
+    padding-top: 50px;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
