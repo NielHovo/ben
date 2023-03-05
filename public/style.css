@@ -1,0 +1,253 @@
+:root {
+  --primary-dark: #D5874C;
+  --primary: #F4A76C;
+  --primary-light: #FFAD6E;
+  --white: #FFFFFF;
+  --offwhite: #FFF7F2;
+  --grey: #D5D5D5;
+  --grey-light: #F7F7F7;
+  --grey-dark: #595959;
+  --black: #000000;
+  --dark: #1A1A1A;
+  --dark-light: #363636;
+}
+
+/*Global*/
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h2 {
+  width: 60vw;
+  border-bottom: 2px solid black;
+  font-size: 2rem;
+  margin: 100px 0px 40px 25px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/*Navbar*/
+.nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(33, 183, 60);
+  margin: 5px 10px 5px 10px;
+}
+
+footer {
+  background-color: rgb(33, 183, 60);
+  padding: 50px 0px 50px 0px;
+}
+footer .left {
+  margin: auto;
+  text-align: center;
+  color: white;
+  width: fit-content;
+}
+
+#workshops {
+  font-size: 1.25rem;
+  background-color: rgb(33, 183, 60);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#workshops img {
+  height: 350px;
+  width: 60vw;
+  background-color: grey;
+}
+
+#workshops .column {
+  width: 20vw;
+  margin-left: 40px;
+  align-self: center;
+  color: white;
+}
+
+#workshops .column button {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  padding: 5px 10px 5px 10px;
+  background-color: transparent;
+  border: white 3px solid;
+  cursor: pointer;
+  color: white;
+}
+
+#philosophy {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+#philosophy img {
+  width: 50vw;
+}
+#philosophy .text {
+  margin: auto;
+  width: fit-content;
+  color: rgb(33, 183, 60);
+}
+#philosophy .text h3 {
+  width: 35vw;
+  font-size: 4rem;
+  text-align: center;
+}
+#philosophy .text p {
+  width: 35vw;
+  font-size: 1.75rem;
+}
+
+#jobs {
+  font-size: 1.25rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+#jobs img {
+  height: 350px;
+  width: 40vw;
+  background-color: rgb(200, 73, 73);
+}
+
+#jobs .column {
+  width: 30vw;
+  margin-left: 40px;
+  align-self: center;
+  color: rgb(33, 183, 60);
+}
+
+#jobs .column button {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  padding: 5px 10px 5px 10px;
+  background-color: transparent;
+  border: rgb(33, 183, 60) 3px solid;
+  cursor: pointer;
+  color: rgb(33, 183, 60);
+}
+
+#box {
+  width: 20vw;
+  height: 350;
+}
+
+/*Hero*/
+#hero {
+  width: 100vw;
+}
+
+#pastri {
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: center;
+}
+#pastri img {
+  margin: auto;
+}
+#pastri .pasta {
+  background-color: rgb(33, 183, 60);
+  border-radius: 4px 4px 80px 80px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+#pastri .pasta img {
+  margin-top: 10px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+#pastri .pasta p {
+  color: white;
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#pastri .pasta a {
+  color: white;
+  text-decoration: none;
+  border: 3px solid white;
+  width: fit-content;
+  margin: auto;
+  align-self: center;
+  margin-top: 10px;
+  font-size: 1.6rem;
+  padding: 5px 15px 5px 15px;
+}
+
+#jobpage {
+  height: 70vh;
+  width: 100vw;
+}
+#jobpage h1 {
+  margin-left: 10px;
+}
+#jobpage #jobgrid {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+#jobpage #jobgrid .jobboard {
+  margin-top: 50px;
+  background-color: rgb(150, 137, 108);
+  height: 400px;
+  width: 300px;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+}
+#jobpage #jobgrid .jobboard img {
+  width: 100%;
+}
+#jobpage #jobgrid .jobboard h2 {
+  text-decoration: none;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+}
+#jobpage #jobgrid .jobboard p {
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+#jobpage #jobgrid .jobboard a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: white 3px solid;
+  padding: 4px 12px 4px 12px;
+}
+
+/*# sourceMappingURL=style.css.map */

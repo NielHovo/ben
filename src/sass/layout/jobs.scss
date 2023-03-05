@@ -1,0 +1,31 @@
+
+#jobs{
+    font-size: 1.25rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+#jobs img{
+    height: 350px;
+    width: 40vw;
+    background-color: rgb(200, 73, 73);
+}
+#jobs .column{
+    width: 30vw;
+    margin-left: 40px;
+    align-self: center;
+    color: rgb(33, 183, 60)
+}
+#jobs .column button{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: transparent;
+    border: rgb(33, 183, 60) 3px solid;
+    cursor: pointer;
+    color: rgb(33, 183, 60)
+}
+#box{
+    width: 20vw;
+    height: 350;
+}
